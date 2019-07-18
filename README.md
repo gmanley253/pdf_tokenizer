@@ -4,9 +4,9 @@
 The Natural Language Toolkit (NLTK) is a package used for building Python programs 
 that work with human language data for statistical natural language processing
 
-    ```
+    
     import nltk
-    ```
+    
 
 The PyPDF2 package is a Python package that you can use for splitting, 
 merging, cropping and transforming pages in your PDFs; including parsing text
