@@ -3,7 +3,8 @@
 
 The Natural Language Toolkit (NLTK) is a package used for building Python programs 
 that work with human language data for statistical natural language processing
-    ```python
+
+    ```
     import nltk
     ```
 
