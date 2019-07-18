@@ -1,5 +1,5 @@
 # PDF Tokenizer
-###Uses Python to read a PDF file and produce a list of the top 30 words
+Uses Python to read a PDF file and produce a list of the top 30 words
 
 The Natural Language Toolkit (NLTK) is a package used for building Python programs 
 that work with human language data for statistical natural language processing
@@ -71,7 +71,7 @@ If the above returns as False, we run the OCR library textract to convert scanne
     else:
         text = textract.process(pdfFileObj, method='tesseract', language='eng')
 
-##Now we have a text variable which contains all the text derived #from our PDF file. We will clean our text variable, and return it as a list of top 30 keywords.
+Now we have a text variable which contains all the text derived #from our PDF file. We will clean our text variable, and return it as a list of top 30 keywords.
 
 Strip out all the numbers
     
@@ -106,7 +106,7 @@ Create a list of words not in stop_words and not in punctuations.
     
     keywords = [word for word in tokens if not word in stop_words and not word in punctuations]
 
-##Next we will take our list of keywords to produce the top 30 words
+Next we will take our list of keywords to produce the top 30 words
 Instantiate a dictionary variable
     
     dict = {}
